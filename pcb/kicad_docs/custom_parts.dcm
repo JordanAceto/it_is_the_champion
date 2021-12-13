@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 12AX7
+D double triode
+K triode valve
+F http://www.r-type.org/pdfs/ecc81.pdf
+$ENDCMP
+#
+$CMP ECC83
+D double triode
+K triode valve
+F http://www.r-type.org/pdfs/ecc83.pdf
+$ENDCMP
+#
+$CMP GU50
+D pentode, 25W
+K pentode valve
+F http://www.r-type.org/pdfs/el34.pdf
+$ENDCMP
+#
+$CMP KT88
+D pentode, 25W
+K pentode valve
+F http://www.r-type.org/pdfs/el34.pdf
+$ENDCMP
+#
+#End Doc Library
