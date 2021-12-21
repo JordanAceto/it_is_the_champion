@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 4
 Title "It is the Champion"
-Date "2021-12-12"
+Date "2021-12-21"
 Rev "0.1"
 Comp ""
 Comment1 "creativecommons.org/licenses/by/4.0/"
@@ -21,7 +21,7 @@ Text HLabel 1150 2150 0    50   Input ~ 0
 AC_neutral_in
 Text HLabel 1150 1750 0    50   Input ~ 0
 AC_live_in
-Text Notes 2500 2550 0    59   ~ 0
+Text Notes 2650 2550 0    59   ~ 0
 6.3VAC @ 3A
 Wire Wire Line
 	7850 3650 7850 3750
@@ -74,30 +74,30 @@ Wire Wire Line
 $Comp
 L custom_parts:antek_AS-1Txxx #T1
 U 1 1 61280AD8
-P 2300 2400
-F 0 "#T1" H 2300 3850 70  0000 C CNN
-F 1 "antek_AS-1T175" H 2300 3700 70  0000 C CNN
-F 2 "" H 2275 2475 60  0001 C CNN
-F 3 "" H 2275 2475 60  0000 C CNN
-	1    2300 2400
+P 2450 2400
+F 0 "#T1" H 2450 3850 70  0000 C CNN
+F 1 "antek_AS-1T175" H 2450 3700 70  0000 C CNN
+F 2 "" H 2425 2475 60  0001 C CNN
+F 3 "" H 2425 2475 60  0000 C CNN
+	1    2450 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 2350 1350 2350
+	1650 2350 1350 2350
 Wire Wire Line
 	1350 2350 1350 1750
 Wire Wire Line
-	1350 1750 1500 1750
+	1350 1750 1650 1750
 Wire Wire Line
-	1500 2750 1250 2750
+	1650 2750 1250 2750
 Wire Wire Line
 	1250 2750 1250 2150
 Wire Wire Line
-	1250 2150 1500 2150
+	1250 2150 1650 2150
 Connection ~ 1350 1750
 Connection ~ 1250 2150
 Wire Wire Line
-	3100 2650 3300 2650
+	3250 2650 3450 2650
 $Comp
 L Device:CP1 C17
 U 1 1 6143A859
@@ -111,10 +111,10 @@ F 3 "~" H 4800 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3650 5750 3650 5850
-Text Notes 2500 2950 0    59   ~ 0
+Text Notes 2650 2950 0    59   ~ 0
 6.3VAC @ 3A
 Wire Wire Line
-	3300 2750 3100 2750
+	3450 2750 3250 2750
 Wire Wire Line
 	3650 5150 3650 5050
 Wire Wire Line
@@ -191,14 +191,14 @@ F 3 "~" H 7400 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3300 2750 3300 2700
+	3450 2750 3450 2700
 Wire Wire Line
-	3100 1800 3300 1800
+	3250 1800 3450 1800
 Wire Wire Line
-	3300 1800 3300 1750
+	3450 1800 3450 1750
 Wire Wire Line
-	3300 1700 3100 1700
-Text Notes 2500 1550 0    59   ~ 0
+	3450 1700 3250 1700
+Text Notes 2650 1550 0    59   ~ 0
 175VAC @ 280mA
 $Comp
 L Transformer:TRANSF6 #TR2
@@ -356,29 +356,29 @@ $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 61F4E050
-P 3500 2800
+P 3650 2800
 AR Path="/61F4E050" Ref="#PWR?"  Part="1" 
 AR Path="/61116F52/61F4E050" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 3500 2550 50  0001 C CNN
-F 1 "Earth" H 3500 2650 50  0000 C CNN
-F 2 "" H 3500 2800 50  0001 C CNN
-F 3 "~" H 3500 2800 50  0001 C CNN
-	1    3500 2800
+F 0 "#PWR0103" H 3650 2550 50  0001 C CNN
+F 1 "Earth" H 3650 2650 50  0000 C CNN
+F 2 "" H 3650 2800 50  0001 C CNN
+F 3 "~" H 3650 2800 50  0001 C CNN
+	1    3650 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 2800 3500 2700
+	3650 2800 3650 2700
 Wire Wire Line
-	3500 2700 3300 2700
-Connection ~ 3300 2700
+	3650 2700 3450 2700
+Connection ~ 3450 2700
 Wire Wire Line
-	3300 2700 3300 2650
+	3450 2700 3450 2650
 Wire Wire Line
-	3800 2850 3700 2850
+	3950 2850 3850 2850
 Wire Wire Line
-	3700 2850 3700 2350
+	3850 2850 3850 2350
 Wire Wire Line
-	3100 2350 3700 2350
+	3250 2350 3850 2350
 Wire Wire Line
 	4300 1700 4300 1750
 Wire Wire Line
@@ -386,22 +386,22 @@ Wire Wire Line
 Wire Wire Line
 	4300 1700 4400 1700
 Wire Wire Line
-	4300 1750 3300 1750
+	4300 1750 3450 1750
 Connection ~ 4300 1750
 Wire Wire Line
 	4300 1750 4300 1800
 Wire Wire Line
-	4400 1600 3650 1600
+	4400 1600 3800 1600
 Wire Wire Line
-	3650 1600 3650 1300
+	3800 1600 3800 1300
 Wire Wire Line
-	3650 1300 3100 1300
+	3800 1300 3250 1300
 Wire Wire Line
-	3100 2200 3650 2200
+	3250 2200 3800 2200
 Wire Wire Line
-	3650 2200 3650 1900
+	3800 2200 3800 1900
 Wire Wire Line
-	3650 1900 4400 1900
+	3800 1900 4400 1900
 $Comp
 L Diode:1N4007 D4
 U 1 1 6208E5B0
@@ -501,9 +501,9 @@ Wire Wire Line
 	6150 1900 6050 1900
 Wire Wire Line
 	6050 1600 6150 1600
-Connection ~ 3300 1750
+Connection ~ 3450 1750
 Wire Wire Line
-	3300 1750 3300 1700
+	3450 1750 3450 1700
 Wire Wire Line
 	6950 3650 7250 3650
 Wire Wire Line
@@ -564,7 +564,7 @@ Wire Wire Line
 Connection ~ 5050 1750
 Wire Wire Line
 	5050 1750 5050 1800
-Text Notes 2500 2050 0    59   ~ 0
+Text Notes 2650 2050 0    59   ~ 0
 175VAC @ 280mA
 $Comp
 L Connector_Generic:Conn_01x02 J8
@@ -709,7 +709,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 6650 5400 6650
 Wire Wire Line
-	3100 3050 3800 3050
+	3250 3050 3950 3050
 Text Notes 3400 7050 0    50   ~ 0
 DC heater supply is referenced\nto the chassis through one of\nthe metal standoffs.
 Text Notes 7900 6550 0    118  ~ 0
@@ -718,9 +718,9 @@ Text Notes 7900 1900 0    50   ~ 0
 480VDC
 Text Notes 7950 2700 0    50   ~ 0
 240VDC
-Text HLabel 3800 3050 2    50   Output ~ 0
+Text HLabel 3950 3050 2    50   Output ~ 0
 ps_ac_htr_out_2
-Text HLabel 3800 2850 2    50   Output ~ 0
+Text HLabel 3950 2850 2    50   Output ~ 0
 ps_ac_htr_out_1
 Text HLabel 7050 6100 2    50   Output ~ 0
 ps_dc_htr_out_2
@@ -732,4 +732,21 @@ Wire Wire Line
 	7050 6100 6550 6100
 Text Notes 4950 5450 0    50   ~ 0
 12.6VDC
+$Comp
+L power:Earth #PWR?
+U 1 1 61C4BC57
+P 1550 3150
+AR Path="/61C4BC57" Ref="#PWR?"  Part="1" 
+AR Path="/61116F52/61C4BC57" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1550 2900 50  0001 C CNN
+F 1 "Earth" H 1550 3000 50  0000 C CNN
+F 2 "" H 1550 3150 50  0001 C CNN
+F 3 "~" H 1550 3150 50  0001 C CNN
+	1    1550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3150 1550 3050
+Wire Wire Line
+	1550 3050 1650 3050
 $EndSCHEMATC
