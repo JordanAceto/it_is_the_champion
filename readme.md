@@ -6,6 +6,9 @@
 
 ---
 
+## [SCHEMATIC](https://github.com/JordanAceto/it_is_the_champion/blob/main/pcb/construction_docs/it_is_the_champion_schematic.pdf)
+
+---
 A prototype has been constructed and evaluated using a 6550 output tube. See the [prototype write up](https://github.com/JordanAceto/it_is_the_champion/blob/main/prototype/it_is_the_champion_prototype_write_up.pdf) for details. It sounds pretty good to me.
 
 The GU50 output stage has been breadboarded. It seems to work well and gives a smidge more power out than the 6550 (I'm mostly just using it to be a hipster though).
