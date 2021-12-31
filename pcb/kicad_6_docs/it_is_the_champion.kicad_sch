@@ -440,7 +440,6 @@
     )
   )
 
-
   (junction (at 223.52 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 27b2eb82-662b-42d8-90e6-830fec4bb8d2)
   )
@@ -1561,7 +1560,7 @@
       (reference "C3") (unit 1) (value "22n WIMA MKP4") (footprint "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4")
     )
     (path "/00000000-0000-0000-0000-00006111610f/00000000-0000-0000-0000-00006112cbc1"
-      (reference "C4") (unit 1) (value "22n MIMA MKP4") (footprint "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4")
+      (reference "C4") (unit 1) (value "22n WIMA MKP4") (footprint "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4")
     )
     (path "/00000000-0000-0000-0000-00006111610f/00000000-0000-0000-0000-00006131a554"
       (reference "C5") (unit 1) (value "22u 25v") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")

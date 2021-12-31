@@ -587,7 +587,6 @@
     )
   )
 
-
   (junction (at 73.66 68.58) (diameter 0) (color 0 0 0 0)
     (uuid 0a1d0cbe-85ab-4f0f-b3b1-fcef21dfb600)
   )
@@ -1496,7 +1495,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006112cbc1)
     (property "Reference" "C4" (id 0) (at 97.79 107.8992 90))
-    (property "Value" "22n MIMA MKP4" (id 1) (at 97.79 110.2106 90))
+    (property "Value" "22n WIMA MKP4" (id 1) (at 97.79 110.2106 90))
     (property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" (id 2) (at 93.98 115.2652 0)
       (effects (font (size 1.27 1.27)) hide)
     )
