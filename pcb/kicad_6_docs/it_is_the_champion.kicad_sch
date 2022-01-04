@@ -811,7 +811,7 @@
     (uuid f8bd6470-fafd-47f2-8ed5-9449988187ce)
   )
 
-  (text "All voltages and \ncurrents approximate." (at 195.58 139.7 0)
+  (text "All voltages and \ncurrents approximate." (at 194.31 139.7 0)
     (effects (font (size 2.9972 2.9972)) (justify left bottom))
     (uuid 0fc5db66-6188-4c1f-bb14-0868bef113eb)
   )
@@ -820,7 +820,11 @@
     (effects (font (size 2.9972 2.9972)) (justify left bottom))
     (uuid 15a82541-58d8-45b5-99c5-fb52e017e3ea)
   )
-  (text "???mA @ idle\n???mA @ max" (at 25.4 87.63 0)
+  (text "120 VAC in" (at 24.13 77.47 0)
+    (effects (font (size 2.9972 2.9972)) (justify left bottom))
+    (uuid 5943a82b-031e-4271-ab2a-b0b5d5545948)
+  )
+  (text "390mA @ idle\n410mA @ max" (at 25.4 86.36 0)
     (effects (font (size 2.0066 2.0066)) (justify left bottom))
     (uuid 9529c01f-e1cd-40be-b7f0-83780a544249)
   )
@@ -910,7 +914,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006115e9cb)
     (property "Reference" "#F1" (id 0) (at 55.88 97.8662 90))
-    (property "Value" "2A sb" (id 1) (at 55.88 100.1776 90))
+    (property "Value" "1A sb" (id 1) (at 55.88 100.1776 90))
     (property "Footprint" "" (id 2) (at 55.88 101.092 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1416,7 +1420,7 @@
       (reference "#C1") (unit 1) (value "100u 100v") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006115e9cb"
-      (reference "#F1") (unit 1) (value "2A sb") (footprint "")
+      (reference "#F1") (unit 1) (value "1A sb") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006111610f/00000000-0000-0000-0000-00006112f588"
       (reference "#GAIN1") (unit 1) (value "1M-A") (footprint "")
@@ -1478,9 +1482,6 @@
     (path "/00000000-0000-0000-0000-000061116f52/00000000-0000-0000-0000-000061f400a5"
       (reference "#PWR0102") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061116f52/00000000-0000-0000-0000-000061f4e050"
-      (reference "#PWR0103") (unit 1) (value "Earth") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00006111610f/00000000-0000-0000-0000-000061b42153"
       (reference "#PWR0104") (unit 1) (value "GND3") (footprint "")
     )
@@ -1524,19 +1525,16 @@
       (reference "#R2") (unit 1) (value "5k6") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061116994/00000000-0000-0000-0000-000061288f09"
-      (reference "#R3") (unit 1) (value "330R 25W") (footprint "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P60.96mm")
+      (reference "#R3") (unit 1) (value "390R 25W") (footprint "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P60.96mm")
     )
     (path "/00000000-0000-0000-0000-000061116994/00000000-0000-0000-0000-000061287cef"
-      (reference "#R4") (unit 1) (value "470R 5W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal")
+      (reference "#R4") (unit 1) (value "470R 2W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061871bcb"
       (reference "#SW1") (unit 1) (value "power_on_off") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061116f52/6d8de0bd-3e72-4f2d-8b97-120065595b2c"
       (reference "#T1") (unit 1) (value "antek_AS-1T175") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061116f52/fb048223-89cc-497a-aa13-7584c82def6c"
-      (reference "#T2") (unit 1) (value "antek_AN-0115") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061116994/da7f0dcc-a3b9-4032-812d-1070372a71d9"
       (reference "#T3") (unit 1) (value "edcor_GXSE15-8-5k") (footprint "")
@@ -1584,16 +1582,16 @@
       (reference "C11") (unit 1) (value "22u 450v") (footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm")
     )
     (path "/00000000-0000-0000-0000-000061116f52/00000000-0000-0000-0000-000061dbdae1"
-      (reference "C12") (unit 1) (value "100u 350v") (footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm")
+      (reference "C12") (unit 1) (value "220u 350v") (footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm")
     )
     (path "/00000000-0000-0000-0000-000061116f52/00000000-0000-0000-0000-000061dbe171"
-      (reference "C13") (unit 1) (value "100u 350v") (footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm")
+      (reference "C13") (unit 1) (value "220u 350v") (footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm")
     )
     (path "/00000000-0000-0000-0000-000061116f52/00000000-0000-0000-0000-000061de3470"
-      (reference "C14") (unit 1) (value "100u 350v") (footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm")
+      (reference "C14") (unit 1) (value "220u 350v") (footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm")
     )
     (path "/00000000-0000-0000-0000-000061116f52/00000000-0000-0000-0000-000061161cd6"
-      (reference "C15") (unit 1) (value "100u 350v") (footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm")
+      (reference "C15") (unit 1) (value "220u 350v") (footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm")
     )
     (path "/00000000-0000-0000-0000-000061116f52/00000000-0000-0000-0000-0000612fa2a2"
       (reference "C16") (unit 1) (value "4700u 25v") (footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
@@ -1749,13 +1747,13 @@
       (reference "R18") (unit 1) (value "220k 1W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061116f52/00000000-0000-0000-0000-00006129af6f"
-      (reference "R19") (unit 1) (value "50R 5W") (footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal")
+      (reference "R19") (unit 1) (value "100R 5W") (footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061116f52/00000000-0000-0000-0000-000061de3a1f"
-      (reference "R20") (unit 1) (value "50R 5W") (footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal")
+      (reference "R20") (unit 1) (value "100R 5W") (footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061116f52/00000000-0000-0000-0000-00006164163f"
-      (reference "R21") (unit 1) (value "??? 5W") (footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal")
+      (reference "R21") (unit 1) (value "13R 5W") (footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006111610f/1c09aa33-b1b8-4383-bff4-8ce92d45169a"
       (reference "V1") (unit 1) (value "12AX7") (footprint "custom_footprints:belton_VT9-PT-C")
