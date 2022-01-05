@@ -19,6 +19,6 @@ Task | Status |
 ---------|--------------|
 Schematic capture | &#9745;
 PCB layout | &#9745;
-Order boards and do test build | &#9744;
+Order boards and do test build | &#9745;
 Front and rear panels | &#9744;
 Generate complete BOM | &#9744;
