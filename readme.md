@@ -6,7 +6,7 @@
 
 ---
 
-## [SCHEMATIC](https://github.com/JordanAceto/it_is_the_champion/blob/main/pcb/construction_docs/it_is_the_champion_schematic.pdf)
+## [SCHEMATIC](https://github.com/JordanAceto/it_is_the_champion/blob/main/pcb/docs/it_is_the_champion-schematic.pdf)
 
 ---
 A prototype has been constructed and evaluated using a 6550 output tube. See the [prototype write up](https://github.com/JordanAceto/it_is_the_champion/blob/main/prototype/it_is_the_champion_prototype_write_up.pdf) for details. It sounds pretty good to me.
@@ -20,5 +20,5 @@ Task | Status |
 Schematic capture | &#9745;
 PCB layout | &#9745;
 Order boards and do test build | &#9745;
-Front and rear panels | &#9744;
+Front and rear panels | &#9745;
 Generate complete BOM | &#9744;
