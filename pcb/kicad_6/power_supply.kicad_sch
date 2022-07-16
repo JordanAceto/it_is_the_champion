@@ -6,7 +6,7 @@
 
   (title_block
     (title "It is the Champion")
-    (date "2021-12-30")
+    (date "2022-07-16")
     (rev "0.1")
     (comment 1 "creativecommons.org/licenses/by/4.0/")
     (comment 2 "License: CC by 4.0")
@@ -2168,7 +2168,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 62.23 137.16 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000618bc2df)
     (property "Reference" "J10" (id 0) (at 67.31 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2312,7 +2312,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 120.65 43.18 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061f6d188)
     (property "Reference" "J9" (id 0) (at 125.73 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2393,7 +2393,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 157.48 152.4 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062164351)
     (property "Reference" "J8" (id 0) (at 148.59 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2523,7 +2523,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 229.87 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000625bc7a7)
     (property "Reference" "J7" (id 0) (at 223.52 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))

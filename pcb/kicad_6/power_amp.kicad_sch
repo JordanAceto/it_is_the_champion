@@ -6,7 +6,7 @@
 
   (title_block
     (title "It is the Champion")
-    (date "2021-12-30")
+    (date "2022-07-16")
     (rev "0.1")
     (comment 1 "creativecommons.org/licenses/by/4.0/")
     (comment 2 "License: CC by 4.0")
@@ -1078,6 +1078,12 @@
     (property "Datasheet" "" (id 3) (at 124.46 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 7341262f-15c0-4691-a005-6d0aecbba756))
+    (pin "2" (uuid 346dafb7-c3b0-4c86-bf7e-c498fc18f676))
+    (pin "3" (uuid c090c9fd-fd73-44b8-a031-fa6c38cec5b9))
+    (pin "5" (uuid f76a0899-6aa8-4385-8ac8-2a0234ba39ef))
+    (pin "6" (uuid eae0d2a2-b23c-4694-afa2-fff1b9bfaff1))
+    (pin "7" (uuid 8c330ba0-341c-4181-b23f-1807e00f8e92))
     (pin "4" (uuid cfea8a89-d161-49a3-b4cd-9463878afbd0))
     (pin "8" (uuid feffd4dc-dfa6-45f1-9871-7804756c1f68))
   )
@@ -1103,6 +1109,8 @@
     (pin "5" (uuid d6192e86-ae16-4205-a03b-3d0324df1a98))
     (pin "6" (uuid 003b5c14-4524-4a24-a0ce-b80a8930eec2))
     (pin "7" (uuid 86cf8b54-13be-4b56-842e-b37b42c73509))
+    (pin "4" (uuid e70b022b-0eb9-4e81-88b9-a54f877c347b))
+    (pin "8" (uuid 5cb00e68-f2ad-4def-9ad5-253328746124))
   )
 
   (symbol (lib_id "custom_symbols:edcor_GXSE15-x-yk") (at 163.83 68.58 0) (mirror x) (unit 1)
