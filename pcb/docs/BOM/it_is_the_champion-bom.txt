@@ -1,0 +1,43 @@
+Row	Description	Part	References	Value	Footprint	Quantity Per PCB	Status	Datasheet
+1	Unpolarized capacitor	C	C2	470p WIMA FKP2	C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2	1	 	~
+2	Unpolarized capacitor	C	C6 C7	2n2 WIMA FKP2	C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2	2	 	~
+3	Unpolarized capacitor	C	C8	4n7 WIMA FKP2	C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2	1	 	~
+4	Unpolarized capacitor	C	C3 C4 C9	22n WIMA MKP4	C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4	3	 	~
+5	Polarized capacitor	C_Polarized	C1 C5	22u 25v	CP_Radial_D6.3mm_P2.50mm	2	 	~
+6	Polarized capacitor	C_Polarized	C10 C11	22u 450v	CP_Radial_D18.0mm_P7.50mm	2	 	~
+7	Polarized capacitor	C_Polarized	C12 C13 C14 C15	220u 350v	CP_Radial_D18.0mm_P7.50mm	4	 	~
+8	Polarized capacitor	C_Polarized	C16 C17	4700u 25v	CP_Radial_D16.0mm_P7.50mm	2	 	~
+9	1000V 1A General Purpose Rectifier Diode, DO-41	1N4007	D2 D3 D4 D5 D6 D7 D8 D9	1N4007	D_DO-41_SOD81_P10.16mm_Horizontal	8	 	http://www.vishay.com/docs/88503/1n4001.pdf
+10	Single-Phase Bridge Rectifier, 700V Vrms, 4.0A If, GBU package	GBU4M	D1	GBU4M	Diode_Bridge_Vishay_GBU	1	 	http://www.vishay.com/docs/88656/gbu4a.pdf
+11	Resistor	R	R21	13R 5W	R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal	1	 	~
+12	Resistor	R	R19 R20	100R 5W	R_Axial_DIN0617_L17.0mm_D6.0mm_P30.48mm_Horizontal	2	 	~
+13	Resistor	R	R3 R14	1k5	R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	2	 	~
+14	Resistor	R	R6	2k7	R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	1	 	~
+15	Resistor	R	R9	5k6	R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	1	 	~
+16	Resistor	R	R10	10k	R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	1	 	~
+17	Resistor	R	R17	10k 1W	R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal	1	 	~
+18	Resistor	R	R2	33k	R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	1	 	~
+19	Resistor	R	R5 R16	47k 1W	R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal	2	 	~
+20	Resistor	R	R13	68k 1W	R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal	1	 	~
+21	Resistor	R	R4 R7 R11 R15	100k 1W	R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal	4	 	~
+22	Resistor	R	R8	150k 1W	R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal	1	 	~
+23	Resistor	R	R12 R18	220k 1W	R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal	2	 	~
+24	Resistor	R	R1	1M	R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	1	 	~
+25		12AX7	V1 V2	12AX7	belton_VT9-PT-C	2	 	
+
+
+
+
+
+Project info:
+Schematic:	it_is_the_champion
+Variant:	default
+Revision:	0.1
+Date:	2022-07-16
+KiCad Version:	6.0.6-3a73a75311~116~ubuntu22.04.1
+Statistics:
+Component Groups:	25
+Component Count:	49 (0 SMD/ 47 THT)
+Fitted Components:	49 (0 SMD/ 47 THT)
+Number of PCBs:	1
+Total Components:	49

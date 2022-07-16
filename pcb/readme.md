@@ -8,4 +8,4 @@
 
 The preamp and power supply pcbs are connected with breakaway mousebites.
 
-![pcb](pics/pcb_front.png)
+![pcb](docs/2D/it_is_the_champion-top.jpg)
