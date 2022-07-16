@@ -1,3 +1,3 @@
 # Cheap and cheerful rear panel option
 
-![](pics/rear_panel.png)
+![](docs/2D/it_is_the_champion_rear_panel-top.jpg)
